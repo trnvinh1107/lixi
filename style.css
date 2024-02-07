@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(163, 21, 21);
+}
+.container {
+  position: relative;
+}
+.header h1 {
+  text-align: center;
+  color: #f6f2f2;
+}
+.banner img {
+  position: absolute;
+  width: 30%;
+  margin-left: 35%;
+}
+button {
+  width: 180px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn {
+  height: 50px;
+  margin: 25% 30%;
+}
+#btn-cook {
+  margin-right: 35%;
+  background-color: orange;
+}
+#btn-oke {
+  background-color: blue;
+}
+#myForm {
+  background-color: #ccc;
+  text-align: center;
+  width: 500px;
+  height: 560px;
+  position: absolute;
+  top: 10%;
+  left: 32%;
+}
+#myForm p {
+  font-size: 22px;
+}
+#myForm button {
+  width: 150px;
+  background-color: rgb(48, 17, 223);
+}
+.img img {
+  width: 235px;
+  height: 280px;
+}
