@@ -5,8 +5,8 @@ document.getElementById("btn-cook").addEventListener("mouseover", function () {
   var btnOke = document.getElementById("btn-oke");
   var btnCook = document.getElementById("btn-cook");
   if (count != 0) {
-    btnCook.style.transform += "translateX(-90px)";
-    btnCook.style.transform += "translateY(-50px)";
+    btnCook.style.transform += "translateX(-150px)";
+    btnCook.style.transform += "translateY(-100px)";
     btnOke.style.transform = "translateX(130px)";
     // Lấy chiều cao hiện tại của button
     var currentHeight = btnOke.offsetHeight;
@@ -14,8 +14,8 @@ document.getElementById("btn-cook").addEventListener("mouseover", function () {
     var currentTop = btnOke.offsetTop;
     // Tăng chiều cao thêm 30px
     btnOke.style.top = currentTop - 25 + "%";
-    btnOke.style.height = currentHeight + 20 + "px";
-    btnOke.style.width = currentWidth + 20 + "px";
+    btnOke.style.height = currentHeight + 15 + "px";
+    btnOke.style.width = currentWidth + 15 + "px";
     //btn-cook
     // Lấy chiều cao hiện tại của button
     var currentHeight_cook = btnCook.offsetHeight;
@@ -35,7 +35,7 @@ document.getElementById("btn-cook").addEventListener("mouseover", function () {
     parentElement.insertBefore(btnOke, btnCook);
     parentElement.removeChild(temp);
     btnCook.style.marginRight = "0";
-    btnOke.style.marginRight = "35%";
+    btnOke.style.marginRight = "150px";
   }
   count++;
   console.log(count);

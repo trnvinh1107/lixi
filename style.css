@@ -9,10 +9,17 @@ body {
   text-align: center;
   color: #f6f2f2;
 }
+.banner{
+  gap: 10px;
+  height: 30vh; 
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center; /* Centers the buttons vertically */
+}
 .banner img {
   position: absolute;
-  width: 30%;
-  margin-left: 35%;
+  width: 450px;
+  
 }
 button {
   width: 180px;
@@ -22,18 +29,22 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
-.btn {
-  height: 50px;
-  margin: 25% 30%;
-}
+
 #btn-cook {
   font-size: 30px;
-  margin-right: 35%;
   background-color: orange;
 }
 #btn-oke {
   background-color: blue;
 }
+.btn {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center; /* Centers the buttons vertically */
+  gap: 10px;
+  height: 30vh; 
+}
+
 #myForm {
   background-color: #ccc;
   text-align: center;
