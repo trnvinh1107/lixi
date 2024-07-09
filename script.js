@@ -5,8 +5,18 @@ document.getElementById("btn-cook").addEventListener("mouseover", function () {
   var btnOke = document.getElementById("btn-oke");
   var btnCook = document.getElementById("btn-cook");
   if (count != 0) {
-    btnCook.style.transform += "translateX(-150px)";
-    btnCook.style.transform += "translateY(-100px)";
+    if(count == 2){
+      btnCook.style.transform += "translateX(450px)";
+      btnCook.style.transform += "translateY(250px)";
+    }
+    else if(count == 4){
+      btnCook.style.transform += "translateX(-850px)";
+      btnCook.style.transform += "translateY(90px)";
+    }
+    else{
+      btnCook.style.transform += "translateX(-150px)";
+      btnCook.style.transform += "translateY(-100px)";
+    }
     btnOke.style.transform = "translateX(130px)";
     // Lấy chiều cao hiện tại của button
     var currentHeight = btnOke.offsetHeight;
